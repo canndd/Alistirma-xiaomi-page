@@ -34,7 +34,7 @@ ul , ol {
 }
 
 #div1{
-    background-color: rgb(255, 0, 0);
+    
     width: 960px;
     height: 800px;
     margin-left: auto;
@@ -112,4 +112,56 @@ margin-left: 468px;
     width: 960px;
     height: 492px;
     background-color: #1c1c1a;
+    text-align: center;
+    vertical-align: top;
+}
+.homebox{
+    width: 280px;
+    height: 380px;
+    text-align: center;
+    padding: 50px 0px;
+    display: inline-block;
+    margin: 0px 16px;
+    vertical-align: top;
+
+    
+}
+
+
+.divblokimg{
+    height: 220px;
+    width: 220px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+    
+}
+h3{
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+
+    
+}
+p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight:600;
+
+}
+
+.hareket {
+    transform: scale(1);
+    transition: all 1.5s;
+    opacity: 1;
+}
+.hareket:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
 }
